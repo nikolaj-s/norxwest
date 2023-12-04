@@ -1,0 +1,26 @@
+.skills-outer-container {
+    width: 98%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 1600px;
+}
+.white-space {
+    width: 40%;
+    height: 100%;
+}
+
+.skills-text-container {
+    width: 58%;
+    height: 100%;
+}
+
+.skills-text-container h2 {
+    font-size: 2rem;
+}
+.skills-text-container p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+}
+

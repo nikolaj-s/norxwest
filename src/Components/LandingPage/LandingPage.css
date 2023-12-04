@@ -1,0 +1,16 @@
+.landing-page-outer-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (orientation: portrait) {
+    .inner-splash-screen-container h1 {
+        font-size: 4rem;
+    }
+    .inner-splash-screen-container p {
+        font-size: 1.2rem;
+    }
+
+}

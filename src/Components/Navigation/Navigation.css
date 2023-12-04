@@ -1,0 +1,170 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.589);
+    backdrop-filter: blur(5px);
+}
+
+
+
+.top {
+    background-color: 'black';
+}
+
+.nav-icon-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon-container h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+    margin-left: .5rem;
+}
+
+
+.links-container {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    transform: var(--matrix-variable);
+    padding-left: 70px;
+    padding-right: 20px;
+    margin-right: -60px;
+    transition: 0.3s;
+    pointer-events: all;
+}
+
+
+.nav-link:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin: 0 1rem;
+    transform: var(--matrix-variable);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mobile-nav-button {
+    display: none;
+}
+.mobile-nav {
+    display: none;
+}
+
+
+
+@media only screen and (orientation: portrait) {
+    nav {
+        height: 70px;
+    }
+    .links-container {
+        display: none;
+    }
+    .nav-icon-container {
+        margin-left: 0.2rem;
+    }
+    .mobile-nav-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 150px;
+        transition: 0.2s;
+        position: relative;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        padding-left: 1.75rem;
+        margin-right: -3rem;
+        transform: var(--matrix-variable);
+        pointer-events: all;
+    }
+
+
+    .mobile-nav-button svg {
+        width: 70%;
+        height: 70%;
+        object-fit: contain;
+        transform: var(--matrix-variable);
+    }
+
+    .mobile-nav-button:hover {
+        opacity: 0.5;
+    }
+
+    .mobile-nav {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    .mobile-links-container {
+        background-color: rgb(255, 255, 255);
+        height: 95%;
+        width: 95%;
+        border: solid 4px black;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-links-container .nav-link {
+        color: black;
+        font-size: 2rem;
+        margin: 1rem 0;
+        transform: none;
+    }
+
+    .close-button {
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        justify-self: flex-end;
+        cursor: pointer;
+    }
+    .close-button:hover {
+        opacity: 0.6;
+    }
+
+    .close-button svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

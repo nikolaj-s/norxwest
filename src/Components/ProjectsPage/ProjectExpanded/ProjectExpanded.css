@@ -1,0 +1,30 @@
+
+.outer-expanded-project-container {
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 70px);
+    top: 70px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-expanded-project-container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media only screen and (orientation: portrait) {
+    .inner-expanded-project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

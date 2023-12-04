@@ -1,0 +1,27 @@
+.upcoming-outer-container {
+    width: 98%;
+    min-height: 350px;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.upcoming-contact-widget-container {
+    width: 40%;
+    height: 100%;
+}
+
+.upcoming-text-container {
+    width: 58%;
+    height: 100%
+}
+
+.upcoming-text-container h2 {
+    font-size: 2rem;
+}
+
+.upcoming-text-container p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}

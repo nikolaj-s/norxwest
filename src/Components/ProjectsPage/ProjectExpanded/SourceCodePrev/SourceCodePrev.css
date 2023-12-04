@@ -1,0 +1,16 @@
+.source-code-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+code {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    
+}
+
+.hljs {
+    background-color: white;
+    font-weight: 400;
+}

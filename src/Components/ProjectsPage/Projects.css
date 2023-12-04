@@ -1,0 +1,17 @@
+.projects-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.projects-inner-container {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

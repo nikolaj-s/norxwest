@@ -1,0 +1,17 @@
+.search-container {
+    width: 98%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-container input {
+    width: 500px;
+    border: solid black 2px;
+    padding: 0.4rem .5rem;
+    font-size: 2rem;
+    object-fit: cover;
+    height: 100%;
+
+}

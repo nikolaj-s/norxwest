@@ -1,0 +1,25 @@
+.project-info-container {
+    width: 50%;
+}
+
+.project-info-container h1,
+.project-info-container h2 {
+    font-weight: 500;
+}
+
+.project-info-container p,
+.project-info-container li {
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+
+.project-info-container .check-it-out-button {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (orientation: portrait) { 
+    .project-info-container {
+        width: 98%;
+    }
+}

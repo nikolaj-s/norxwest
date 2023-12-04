@@ -1,0 +1,120 @@
+
+
+.featured-cards-container {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.inner-featured-cards-container {
+    position: relative;
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-tag {
+    top: -20px;
+    left: 20px;
+    position: absolute;
+    width: 20vw;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 0.5rem;
+    transform: var(--matrix-variable);
+}
+
+.featured-tag h3 {
+    color: white;
+    transform: var(--matrix-variable);
+    font-size: 3vh;
+    font-weight: 200;
+    margin: 0.6rem;
+}
+
+.card-image-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.featured-button {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 25vw;
+    max-width: 400px;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    transform: var(--matrix-variable);
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.featured-button:hover {
+    opacity: 0.8;
+}
+
+.featured-button h3 {
+    transform: var(--matrix-variable);
+    margin: 0.4rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.featured-button svg {
+    transform: var(--matrix-variable);
+    height: 50px;
+    margin: 0.5rem;
+}
+
+.featured-indicators {
+    margin: 2rem 0;
+    height: 50px;
+}
+
+@media only screen and (orientation: portrait) {
+    .inner-featured-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-tag {
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 80%;
+    }
+    .featured-tag h3 {
+        font-size: 2rem;
+    }
+
+    .featured-button {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+    }
+
+}
