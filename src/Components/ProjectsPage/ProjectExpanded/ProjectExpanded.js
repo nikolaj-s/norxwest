@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 import { selectProject } from '../ProjectsPageFeature';
 import { ProjectInfo } from './ProjectInfo/ProjectInfo';
 import { ProjectGallery } from './ProjectGallery/ProjectGallery';
-import { ThreeDPreview } from './ThreeDPreview/ThreeDPreview';
 import { SourceCodePrev } from './SourceCodePrev/SourceCodePrev';
 
 export const ProjectExpanded = () => {
@@ -48,7 +47,7 @@ export const ProjectExpanded = () => {
             <div className='inner-expanded-project-container'>
                 {project.type === 'website' ? <ProjectGallery project={project} /> : null}
                 {project.type === 'website' ? <ProjectInfo visitSite={visitSite} project={project} /> : null}
-                {project.type === '3D Model' ? <ThreeDPreview /> : null}
+
                 {project.type === 'code' ? <SourceCodePrev /> : null}
             </div>
         </motion.div>
