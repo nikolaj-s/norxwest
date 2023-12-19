@@ -24,7 +24,7 @@ export const ProjectsPage = (props) => {
 
     return (
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} className="projects-container">
-            <div style={{height: '130px', flexShrink: '0', width: "100%"}}></div>
+            <div style={{height: '70px', flexShrink: '0', width: "100%"}}></div>
             <div className='projects-inner-container'>
                 {
                 projects.map((data, i) => {

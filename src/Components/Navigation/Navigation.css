@@ -28,7 +28,7 @@ nav {
 }
 
 .nav-icon-container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     margin: 0;
     margin-left: .5rem;
@@ -82,7 +82,7 @@ nav {
 
 @media only screen and (orientation: portrait) {
     nav {
-        height: 70px;
+        height: 50px;
     }
     .links-container {
         display: none;
@@ -95,7 +95,7 @@ nav {
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 150px;
+        width: 100px;
         transition: 0.2s;
         position: relative;
         cursor: pointer;

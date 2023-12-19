@@ -4,6 +4,7 @@ form {
     width: 100%;
     flex-grow: 1;
     height: 600px;
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column;

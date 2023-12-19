@@ -18,9 +18,7 @@ export const ContactWidget = (props) => {
             <p>
             Please feel free to reach out to me via the contact form or by email, and I will make it a priority to respond to you within one business day.
             </p>
-            <ul>
-                <li>norxwestdesigns@gmail.com</li>
-            </ul>
+            <a href='mailto: norxwestdesigns@gmail.com'>norxwestdesigns@gmail.com</a>
             <div className="social-media-icons">
                 <div onClick={openGit} className="icon-container">
                     <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">

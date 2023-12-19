@@ -1,17 +1,17 @@
 .contact-widget-container {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin: 0.5rem;
-    
+    justify-content:center;
+    align-items: center;
 }
 .contact-widget-container h2 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .social-media-icons {
     display: flex;
+    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -38,8 +38,10 @@
 }
 
 .contact-widget-container ul li,
-.contact-widget-container p {
-    font-size: 1.8rem;
-    line-height: 3rem;
+.contact-widget-container p,
+.contact-widget-container a {
+    font-size: 1.4rem;
+    text-align: center;
+    max-width: 90%;
 }
 

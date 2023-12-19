@@ -1,7 +1,6 @@
 .blender-feature-container {
     position: relative;
     display: flex;
-    height: 800px;
     width: 35%;
     margin: 1rem 0;
 }
@@ -65,7 +64,7 @@
 
 @media only screen and (orientation: portrait) {
     .blender-feature-container {
-        width: 80%;
+        width: 100%;
     }
 
     .blender-feature-tag {
