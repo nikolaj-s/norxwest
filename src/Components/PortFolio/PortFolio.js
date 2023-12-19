@@ -29,8 +29,6 @@ export const PortFolio = (props) => {
             <Bio />
             <Accomplishments />
             <Skills />
-            <Graph />
-            <Upcoming />
         </motion.div>
     )
 }

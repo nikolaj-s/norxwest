@@ -72,10 +72,6 @@
         top: -25px;
         left: 0;
     }
-
-    .blender-feature-image-container img {
-        object-fit: cover;
-    }
     .blender-feature-button {
         right: 0;
         bottom: -25px;

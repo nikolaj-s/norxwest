@@ -15,7 +15,7 @@ export const Featured = () => {
     const currentSlide = featuredSlides[featuredSlideIndex];
 
     const goToFeature = () => {
-        window.open("https://thebubble.network/", "_blank")
+        window.location.pathname = '/projects/bubble'
     }
 
     return (
@@ -25,7 +25,7 @@ export const Featured = () => {
                     <h3>Featured</h3>
                 </div>
                 <div className='card-image-container'>
-                    <Image objectFit='contain' image={currentSlide.image} />
+                    <Image objectFit='contain' image={"https://res.cloudinary.com/drlkgoter/image/upload/v1703015460/Screenshot_2023-12-19_115414_m5wyzh.png"} />
                 </div>
                 
                 <div onClick={goToFeature} className='featured-button'>

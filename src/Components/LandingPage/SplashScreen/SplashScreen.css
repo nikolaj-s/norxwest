@@ -22,11 +22,12 @@
     font-size: 8vw;
     font-weight: 200;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .inner-splash-screen-container p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 
 .back-splash-container img {
